@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://imgix.bustle.com/fatherly/2019/05/pokemon-characters.jpg?w=1200&h=630&fit=crop&crop=faces&fm=jpg);
+    background-size: cover;
+}
+
+.container{
+    display: flex;
+    border:solid 1px rgba(128, 128, 128, 0.569);
+    border-radius: 16px;
+    background-color: rgba(82, 158, 158, 0.527);
+    text-align:center;
+    align-items: center;
+    justify-content: space-around;
+    margin:60px auto;
+    padding: 10px;
+    width: 30vw;
+    height: 45vh;
+
+   
+}
+
+input{
+  width: 100%;
+  height: 50px;
+}
+
+button{
+    padding: 3px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    overflow: auto;
+    margin-top: 15px;
+}
+
+#imga{
+    width: 60%
+}
+
+H2{
+    margin-top: 15px;
+    color:white;
+    text-align: center;
+}
+
+
+    
+#medio-derecho{
+    border:solid 1px;
+    height: 80%;
+    width: 45%;
+}
+
+#datos{
+    border:solid 1px;
+    height: 80%;
+    width: 45%;
+}
